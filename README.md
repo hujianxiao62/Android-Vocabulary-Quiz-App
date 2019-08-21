@@ -3,7 +3,8 @@
 ## DESCRIPTIONS:
 This repro is the team project of Georgia Tech CS 6300 Software Development Process. 
 An Android vocabulary quiz was created with agile development including requirement analysis, urse case design, software structure design, front/back end development, test plan and so on. 
-Detailed development docs could be find at ./GroupProject/Docs
+Tech framework including: Kotlin, Android Studio, SQLite, Git, Junit, Expresso, etc.
+Software requirements and detailed development docs could be find at ./GroupProject/Docs
 
 ## APP FUNCTIONS:
 
