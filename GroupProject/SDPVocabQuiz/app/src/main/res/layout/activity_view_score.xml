@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutViewScore"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ViewScoreActivity">
+
+
+    <TextView
+        android:id="@+id/percentLabel6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="%"
+        app:layout_constraintStart_toEndOf="@+id/view_score_one_score"
+        app:layout_constraintTop_toBottomOf="@+id/view_score_top_label2" />
+
+    <TextView
+        android:id="@+id/percentLabel4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="%"
+        app:layout_constraintStart_toEndOf="@+id/view_score_two_score"
+        app:layout_constraintTop_toBottomOf="@+id/view_score_one_score" />
+
+    <TextView
+        android:id="@+id/view_score_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="quiz"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/view_score_first_time"
+        android:layout_width="0dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="8dp"
+        android:text="N/A"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/percentLabel2"
+        app:layout_constraintTop_toBottomOf="@+id/view_score_first_label" />
+
+    <TextView
+        android:id="@+id/view_score_best_time"
+        android:layout_width="0dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="8dp"
+        android:text="N/A"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/percentLabel"
+        app:layout_constraintTop_toBottomOf="@+id/view_score_best_label" />
+
+    <TextView
+        android:id="@+id/view_score_first_score"
+        android:layout_width="0dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:text="N/A"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_score_first_label" />
+
+    <TextView
+        android:id="@+id/view_score_best_score"
+        android:layout_width="0dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:text="N/A"
+        android:textSize="22sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_score_best_label" />
+
+    <TextView
+        android:id="@+id/view_score_three_label"
+        android:layout_width="16dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="3."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_score_two_label" />
+
+    <TextView
+        android:id="@+id/view_score_two_label"
+        android:layout_width="16dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="2."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_score_one_label" />
+
+    <TextView
+        android:id="@+id/view_score_one_label"
+        android:layout_width="16dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="1. "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_score_top_label2" />
+
+    <TextView
+        android:id="@+id/view_score_three_score"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="N/A"
+        app:layout_constraintStart_toEndOf="@+id/view_score_three_student"
+        app:layout_constraintTop_toBottomOf="@+id/view_score_two_score" />
+
+    <TextView
+        android:id="@+id/view_score_two_score"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="N/A"
+        app:layout_constraintStart_toEndOf="@+id/view_score_two_student"
+        app:layout_constraintTop_toBottomOf="@+id/view_score_one_score" />
+
+    <TextView
+        android:id="@+id/view_score_three_time"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="N/A"
+        app:layout_constraintStart_toEndOf="@+id/percentLabel3"
+        app:layout_constraintTop_toBottomOf="@+id/view_score_two_time" />
+
+    <TextView
+        android:id="@+id/view_score_two_time"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="N/A"
+        app:layout_constraintStart_toEndOf="@+id/percentLabel4"
+        app:layout_constraintTop_toBottomOf="@+id/view_score_one_time" />
+
+    <TextView
+        android:id="@+id/view_score_one_time"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="N/A"
+        app:layout_constraintStart_toEndOf="@+id/percentLabel6"
+        app:layout_constraintTop_toBottomOf="@+id/view_score_top_label2" />
+
+    <TextView
+        android:id="@+id/view_score_one_score"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="N/A"
+        app:layout_constraintStart_toEndOf="@+id/view_score_one_student"
+        app:layout_constraintTop_toBottomOf="@+id/view_score_top_label2" />
+
+    <TextView
+        android:id="@+id/view_score_top_label2"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:text="Top scores:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_score_first_score" />
+
+    <TextView
+        android:id="@+id/view_score_first_label"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:text="Your first score:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_score_best_score" />
+
+    <TextView
+        android:id="@+id/view_score_best_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:text="Your best score:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_score_quiz" />
+
+    <TextView
+        android:id="@+id/percentLabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="%"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/view_score_first_score"
+        app:layout_constraintTop_toBottomOf="@+id/view_score_first_label" />
+
+    <TextView
+        android:id="@+id/percentLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="%"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/view_score_best_score"
+        app:layout_constraintTop_toBottomOf="@+id/view_score_best_label" />
+
+    <TextView
+        android:id="@+id/percentLabel3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="%"
+        app:layout_constraintStart_toEndOf="@+id/view_score_three_score"
+        app:layout_constraintTop_toBottomOf="@+id/view_score_two_score" />
+
+    <TextView
+        android:id="@+id/view_score_one_student"
+        android:layout_width="120dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="N/A"
+        app:layout_constraintStart_toEndOf="@+id/view_score_one_label"
+        app:layout_constraintTop_toBottomOf="@+id/view_score_top_label2" />
+
+    <TextView
+        android:id="@+id/view_score_two_student"
+        android:layout_width="120dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="N/A"
+        app:layout_constraintStart_toEndOf="@+id/view_score_two_label"
+        app:layout_constraintTop_toBottomOf="@+id/view_score_one_student" />
+
+    <TextView
+        android:id="@+id/view_score_three_student"
+        android:layout_width="120dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="N/A"
+        app:layout_constraintStart_toEndOf="@+id/view_score_three_label"
+        app:layout_constraintTop_toBottomOf="@+id/view_score_two_student" />
+
+
+</android.support.constraint.ConstraintLayout>

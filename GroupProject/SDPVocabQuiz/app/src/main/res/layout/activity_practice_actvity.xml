@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.PracticeActvity">
+
+    <TextView
+        android:id="@+id/practice_number"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="21dp"
+        android:layout_marginEnd="16dp"
+        android:text="0 of 10"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/practice_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/practice_progress"
+        app:layout_constraintTop_toBottomOf="@+id/practice_question" />
+
+    <TextView
+        android:id="@+id/practice_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginStart="27dp"
+        android:text="question"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/practice_number"
+        app:layout_constraintStart_toStartOf="@+id/practice_quizName"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/practice_quizName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:layout_marginTop="25dp"
+        android:text="Quiz Name"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/practice_four"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginStart="14dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Button"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium.Inverse"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/practice_three" />
+
+    <Button
+        android:id="@+id/practice_three"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginStart="14dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Button"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium.Inverse"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/practice_four"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/practice_two" />
+
+    <Button
+        android:id="@+id/practice_two"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginStart="14dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Button"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium.Inverse"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/practice_three"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/practice_one" />
+
+    <Button
+        android:id="@+id/practice_one"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Button"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium.Inverse"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/practice_two"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/practice_number" />
+
+    <ProgressBar
+        android:id="@+id/practice_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginStart="26dp"
+        app:layout_constraintBottom_toBottomOf="@+id/practice_number"
+        app:layout_constraintEnd_toStartOf="@+id/practice_number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/practice_number" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Select the best definition for:"
+        app:layout_constraintBottom_toTopOf="@+id/practice_question"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/practice_quizName" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutRigster"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RegisterActivity">
+
+    <TextView
+        android:id="@+id/RegisterText"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/txt_registerUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="UserName"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/RegisterText"
+        app:layout_constraintTop_toBottomOf="@+id/RegisterText" />
+
+
+    <EditText
+        android:id="@+id/txt_registerMajor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Major"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/RegisterText"
+        app:layout_constraintTop_toBottomOf="@+id/txt_registerUserName" />
+
+
+    <Spinner
+        android:id="@+id/spinner_registerSeniority"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:entries="@array/SeniorityLevels"
+        app:layout_constraintEnd_toEndOf="@+id/txt_registerMajor"
+        app:layout_constraintStart_toStartOf="@+id/txt_registerMajor"
+        app:layout_constraintTop_toBottomOf="@+id/txt_registerMajor" />
+
+
+    <EditText
+        android:id="@+id/txt_reigsterEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toStartOf="@+id/RegisterText"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_registerSeniority" />
+
+    <Button
+        android:id="@+id/btn_registerDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Done"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/txt_reigsterEmail"
+        app:layout_constraintTop_toBottomOf="@+id/txt_reigsterEmail" />
+
+</android.support.constraint.ConstraintLayout>

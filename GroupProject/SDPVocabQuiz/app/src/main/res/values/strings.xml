@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Student Quiz App</string>
+    <string name="menu">Menu</string>
+    <string name="logout">Logout</string>
+    <string name="remove_a_quiz">Remove a quiz</string>
+    <string name="add_a_quiz">Add a quiz</string>
+    <string name="practice_a_quiz">Practice a quiz</string>
+    <string name="view_scores">View scores</string>
+    <string name="insert_quizname">insert_quizname</string>
+    <string name="number_correct">Number Correct:</string>
+    <string name="insert_definition_a">insert_definition_a</string>
+    <string name="insert_definition_b">insert_definition_b</string>
+    <string name="insert_defiinition_c">insert_defiinition_c</string>
+    <string name="insert_definition_d">insert_definition_d</string>
+    <string name="x">X</string>
+    <string name="of">of</string>
+    <string name="n">N</string>
+    <string name="insert_word">insert_WORD</string>
+    <string name="register">Register</string>
+    <string name="username">Username:</string>
+    <string name="insert_username">insert_username</string>
+    <string name="major">Major:</string>
+    <string name="name">Name</string>
+    <string name="seniority_level">Seniority level:</string>
+    <string name="e_mail">E-mail:</string>
+    <string name="done">Done</string>
+
+    <string name="toast_Register_Success">Register Success</string>
+    <string name="toast_A_student_with_that_name_already_exists">A student with that name already exists!</string>
+    <string name="toast_Please_populate_all_fields">Please populate all fields!</string>
+    <string name="toast_Login_Success">Login Success</string>
+    <string name="toast_Please_Register">Please Register</string>
+    <string name="toast_Please_enter_a_username">Please enter a username!</string>
+    <string name="toast_An_error_occured_while_saving_your_score">An error occured while saving your score!</string>
+    <string name="toast_Sorry_nobody_else_has_created_any_quizzes_yet">Sorry, nobody else has created any quizzes yet.</string>
+    <string name="toast_A_quiz_with_that_name_already_exists">A quiz with that name already exists!</string>
+    <string name="toast_Please_input_1_10_words_and_definitions">Please input 1-10 words and definitions</string>
+    <string name="toast_You_ve_already_used_that_definition">You have already used that definition!</string>
+    <string name="toast_Please_enter_a_value">Please enter a value!</string>
+    <string name="toast_You_already_have_enough_definitions">You already have enough definitions!</string>
+    <string name="toast_Invalid_selection_to_delete">"Invalid selection to delete!"</string>
+    <string name="toast_Success">Success!</string>
+    <string name="toast_Please_input_Quiz_title_and_description">Please input Quiz title and description</string>
+    <string name="toast_You_already_have_10_words">You already have 10 words!</string>
+    <string name="toast_That_definition_has_already_been_entered">That definition has already been entered!</string>
+    <string name="toast_That_word_has_already_been_entered">That word has already been entered!</string>
+    <string name="toast_Please_enter_word_value_and_definition">Please enter word value and definition!</string>
+    <string name="toast_That_is_the_definition_of_quiz_word">That is the definition of quiz word</string>
+
+
+
+
+
+    <string-array name="SeniorityLevels">
+        <item>Freshman</item>
+        <item>Sophomore</item>
+        <item>Junior</item>
+        <item>Senior</item>
+    </string-array>
+    <string name="title_activity_view_score">ViewScoreActivity</string>
+</resources>
